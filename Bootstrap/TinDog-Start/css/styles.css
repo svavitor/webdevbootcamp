@@ -5,7 +5,7 @@
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .navbar-brand {
@@ -30,6 +30,8 @@
 .title-image {
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 h1 {
@@ -59,8 +61,9 @@ p {
 /* feature section */
 
 #features {
-
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 
 .feature-box {
