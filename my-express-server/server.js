@@ -18,6 +18,6 @@ app.get("/hobbies", function(req, res){
   res.send("<ul><li>Coffee</li><li>Gaming</li><li>Code</li></ul>");
 });
 
-app.listen(3000, function() {
+app.listen(300, function() {
   console.log("Server started on port 3000");
 });
